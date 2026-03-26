@@ -15,7 +15,7 @@ export function getClient(): GoogleGenAI {
 }
 
 export function getModel(): string {
-  return process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  return process.env.GEMINI_MODEL || "gemini-3-flash-preview";
 }
 
 export function getFileSearchStoreName(): string {
