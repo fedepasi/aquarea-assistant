@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+
+# next.js
+/.next/
+/out/
+
+# env files
+.env*.local
+
+# misc
+.DS_Store
+*.tgz
+
+# debug
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Old image versions (only v4 is used)
+public/images/v2/
+public/images/v3/
+public/images/*.png
+public/images/*.jpeg
+public/images/index.json
+
+# Scripts (setup only, not needed for runtime)
+scripts/
+
+# PDF manuals (stored in Gemini File Search, not needed in repo)
+manuals/

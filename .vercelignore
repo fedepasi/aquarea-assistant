@@ -1,0 +1,8 @@
+scripts/
+manuals/
+public/images/v2/
+public/images/v3/
+public/images/*.png
+public/images/*.jpeg
+public/images/index.json
+*.py
